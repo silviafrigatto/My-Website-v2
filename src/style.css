@@ -14,6 +14,10 @@ body {
     right:0;
 }
 
+.body-projects {
+    font-family: 'Poppins', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -51,7 +55,7 @@ section {
 }
 
 
-.about-area{
+.about-area, .projects-area{
     background-color: #fff;
     color: #1c1d25;
     font-size: 25px;
@@ -78,6 +82,31 @@ section {
     margin-left: 0px;
 }
 
+.projects-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 45px;
+    padding: 50px 0px 50px 0px;
+}
+
+.projects-content{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projects-games{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.projects-frentend{
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 /*#contact footer {
@@ -375,7 +404,8 @@ h3 {
     justify-content:space-around;
     flex-direction: column;
 }
-.headshot {
+
+/*.headshot {
     border-radius: 10%;
     width: 325px;
     height: 475px;
@@ -385,7 +415,7 @@ h3 {
 .headshot-container {
     display: flex;
     align-content: center;
-}
+}*/
 
 hr {
     margin-left: 20px;
