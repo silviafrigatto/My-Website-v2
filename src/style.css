@@ -77,7 +77,7 @@ section {
     width: 500px;
     height: 380px;
     margin-right: 50px;
-    margin-top: 150px;
+    margin-top: 250px;
     padding-left: 0px;
     margin-left: 0px;
 }
@@ -393,7 +393,7 @@ h3 {
     width: 600px;
 }
 
-#contact {
+.contact {
     background-color: black;
     height: 100vh;
     color: white;
