@@ -7,11 +7,14 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    position:fixed;
     top:0;
     bottom:0;
     left:0;
     right:0;
+}
+
+.body-index, .body-contact{
+    position:fixed;
 }
 
 /*.body-projects {
